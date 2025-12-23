@@ -1,0 +1,5 @@
+{
+  "name": "Vendasta CRM Sales Analyst",
+  "description": "An AI-powered assistant to analyze sales conversations from Vendasta CRM data. Select an account to review notes and transcripts, then ask questions to get insights on customer interactions.",
+  "requestFramePermissions": []
+}
