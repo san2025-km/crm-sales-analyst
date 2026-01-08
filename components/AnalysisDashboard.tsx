@@ -75,7 +75,7 @@ export const AnalysisDashboard: React.FC<AnalysisDashboardProps> = ({
   return (
     <div className="flex flex-col h-full">
       <header className="flex-shrink-0 bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700 p-4 flex items-center justify-between">
-        <h1 className="text-xl font-bold text-gray-900 dark:text-white">Sales Insights Dashboard</h1>
+        <h1 className="text-xl font-bold text-gray-900 dark:text-white">Sales Insights Dashboard <span className="text-sm font-normal text-gray-500 dark:text-gray-400">Version 2</span></h1>
         <div className="flex items-center gap-4">
             <span className="text-sm">Welcome, {user.name}</span>
             <button onClick={onLogout} className="text-sm text-indigo-600 dark:text-indigo-400 hover:underline">
